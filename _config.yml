@@ -1,0 +1,39 @@
+# top level stuff you probably don't need to touch
+highlighter: rouge
+markdown: kramdown
+# kramdown: 
+  # input: GFM
+  # hand_wrap: false
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 4000
+safe: true
+
+
+# edit here to achieve your personal greatness
+url: http://rishibarad.github.io/
+baseurl: ''
+title: Rishi Barad
+tagline: 'Aspiring Software Engineer'
+author: Rishi Barad
+description: Rishi Barad's Personal Website
+avatar: profile.png
+email: rishib@umich.edu
+github: rishibarad # username
+# twitter: username
+linkedin: rishibarad
+# stackoverflow: username   #e.g: users/2735833/proton1h1
+# Comment out if you don't want disqus
+# disqus: username
+google_analytics: UA-69391421-1
+
+timezone: America/New_York
+
+# needed for travis-ci build
+exclude: [vendor]
+
+## External Links
+# carol: https://medicine.umich.edu/dept/psychiatry/carol-persad-phd
